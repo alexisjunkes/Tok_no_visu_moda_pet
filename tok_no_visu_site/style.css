@@ -1,0 +1,249 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --color0: #267302;
+    --color1: #4C593F;
+    --color2: #BDBF6F;
+    --color3: #F2C063;
+    --color4: #668B3D;
+    --color5: #e9c88b;
+
+    --font_padrao: Arial, Verdana, Helvetica, sans-serif;
+    --font_logo:'Amarante', cursive;
+   
+    --maximo_largura:1000px;
+    --minimo_largura:450px;
+}
+
+
+
+body{
+/**background-color: var(--color2);*/
+   background-image: linear-gradient(0deg, var(--color4), var(--color1), var(--color1));
+}
+header{
+    background-color: var(--color1);
+}
+
+div.Logo_tok{
+    background-color: white;
+    border-radius: 50%;
+    margin: auto;
+    
+    min-width: 200px;
+    max-width: 200px;
+    padding: 30px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.479);
+    margin-top: 50px;
+}
+div.Logo_tok img{
+    width: 100%;
+    min-width: 200px;
+    max-width: 25%;
+    display: block;
+    margin: auto;
+}
+
+nav{
+   
+    color: white;  
+    min-width: var(--minimo_largura);
+    max-width: var(--maximo_largura);
+    margin: auto;
+    text-align: center;
+    
+  
+}
+nav div{
+    padding: 10px;
+    margin: 20px 0px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px; 
+    width: 100px;
+    border-radius: 5px;
+    font-size: 1.5em;
+}
+
+nav a:hover{
+    background-color: var(--color4);
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    min-width: var(--minimo_largura);
+    max-width: var(--maximo_largura);
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 30px;
+    
+  
+}
+.Foto_detalhe{
+  
+    width: 100%;
+    background-color: white;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    
+
+}
+
+div#promocao_com_detalhes{
+ 
+    background-color: transparent;
+    border-radius: 5px ;
+    padding: 10px;
+   
+    width: 30%;
+    min-width: 300px;
+    display: inline-block;
+    margin: 10px;
+}
+
+div#promocao_com_detalhes div{
+    background-color: crimson;
+    border-radius: 5px ;
+    padding: 10px;
+    width: 30%;
+    min-width: 300px;
+    display: inline-block;
+    margin-top: 10px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.479);
+    text-align: justify;
+    
+    
+}
+
+.Artigos{
+    
+    margin: auto;
+    width: 70%;
+}
+main  article div.Imagens_com_detalhes{
+ 
+    background-color: var(--color2);
+    border-radius: 5px ;
+    padding: 10px;
+   
+    width: 30%;
+    min-width: 300px;
+    display: inline-block;
+    margin: 10px;
+ 
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.479);
+  
+    align-self: center;
+}
+.Paragrafo_main{
+    text-align: justify;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-indent: 2em;
+    line-height: 1.5em;
+}
+
+
+.Paragrafo_detalhes{
+    background-color: transparent;
+    /**display: none;*/
+    text-align: justify;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-indent: 2em;
+    line-height: 1em;
+    margin: 0px;
+    padding: 10px;
+    
+}
+.h2_detalhes{
+    background-color: transparent;
+    /**display: none;*/
+
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+    line-height: 1.5em;
+    margin: 0px;
+    padding: 10px;
+    font-weight: normal;
+    text-align: center;
+}
+
+
+
+
+
+
+
+aside{
+    background-color: var(--color1);
+    text-align: center;
+}
+
+
+aside div{
+    
+    background-color: var(--color1);
+    padding: 10px;
+    color: white;
+    margin: auto;
+    display: inline-block;
+}
+aside  div.Ifo_roda_pe{
+    
+    background-color: var(--color1);
+    padding: 10px;
+    width: 300px;
+    
+}
+aside  div.Ifo_roda_pe:hover{
+opacity: 80%;
+}
+
+aside  div.Info_adicionais_contados{
+    
+    background-color: var(--color1);
+    padding: 10px;
+    width: 200px;
+  
+   
+}
+aside a{
+    background-color: crimson;
+    color: white;
+    text-decoration: none;
+    padding: 0px 10px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: var(--color1);
+    padding: 2px 0px;
+    text-align: center;
+    color: white;
+    margin: auto;
+    margin: 2px 0px;
+    
+}
+
+footer p{
+    font-weight: normal;
+    text-align: center;
+}
+
+
+.Foto_Pingo{
+    min-width: 200px;
+    width: 20%;
+    border-radius: 50%;
+}
